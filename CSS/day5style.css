@@ -1,6 +1,8 @@
 .para1 {
     color: rgb(32, 135, 61);
-    font-style:italic 
+    text-decoration: line-through;
+    font-style:italic;
+    
 }
 .para2 {
     color: rgb(47, 32, 135);
@@ -8,6 +10,13 @@
     font-family: "Ubuntu", sans-serif;
     background-color: aquamarine;
     background-blend-mode: color-dodge;
+    
+    font: weight 500px;;
+    letter-spacing: 1cap;
+    line-clamp:  2px; 
+    text-transform: uppercase;
+    text-decoration-line: underline;
+
 }
 .para3 {
     color: rgb(216, 14, 199);
